@@ -2,19 +2,19 @@ package main.java;
 
 import com.oracle.tools.packager.Log;
 
-public class outlet implements device
+public class bell implements device
 {
     //device is assumed to be on when instantiated
-
+    
     private boolean status = false;
     private int id = 0;
     private int group = 0;
-
-    public void outlet(boolean status)
+    
+    public void bell(boolean status)
     {
         this.status = status;
     }
-
+    
     @Override
     public void switchState()
     {
@@ -26,7 +26,7 @@ public class outlet implements device
     {
         this.group = group;
     }
-
+    
     public boolean getState()
     {
         return status;
@@ -36,5 +36,6 @@ public class outlet implements device
     {
         return status + id + group;
     }
-
+    
 }
+

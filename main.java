@@ -1,4 +1,3 @@
-
 package main.java;
 
 public class main
@@ -8,8 +7,6 @@ public class main
         scheduler sc = new scheduler();
         sc.switchPower();
         sc.switchBulb();
-
-
 
     }
 }
