@@ -14,10 +14,6 @@ public class scheduler {
         //Devices are ON upon instantiation
     }
 
-
-
-
-
     public void switchPower()
     {
         powerStrip.switchState();
