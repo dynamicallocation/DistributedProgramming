@@ -10,9 +10,10 @@ public class bell implements device
     private int id = 0;
     private int group = 0;
     
-    public void bell(boolean status)
+    public void bell(boolean status, int group)
     {
         this.status = status;
+        this.group = group;
     }
     
     @Override

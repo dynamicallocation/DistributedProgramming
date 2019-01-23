@@ -10,9 +10,10 @@ public class outlet implements device
     private int id = 0;
     private int group = 0;
 
-    public void outlet(boolean status)
+    public void outlet(boolean status, int group)
     {
         this.status = status;
+        this.group = group;
     }
 
     @Override
