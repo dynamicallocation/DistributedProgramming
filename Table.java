@@ -1,31 +1,26 @@
 package main.java;
 
+import java.util.ArrayList;
+
 public class Table {
 
-    private String deviceModel;
-    private String deviceType;
-    private String deviceState;
-    private String deviceColor;
+
+    private ArrayList tbArray = new ArrayList();
 
 
-    public Table(String deviceModel, String deviceType, String deviceState, String deviceColor)
-    {
-        this.deviceModel = deviceModel;
-        this.deviceType = deviceType;
-        this.deviceState = deviceState;
-        this.deviceColor = deviceColor;
-        this.deviceState = deviceState;
-    }
-
-    public Table()
-    {
-
-    }
 
     public void displayTable()
     {
 
        displayHeader();
+       if(tbArray.size() == 0)
+       {
+           System.out.println("No Devices Available");
+       }
+       else
+       {
+           updateTable();
+       }
 
 
 
@@ -33,29 +28,35 @@ public class Table {
 
     private void displayHeader() {
 
-        System.out.println("\nModel|State|Brightness|Other");
+        System.out.println("\nID|Model|State|Brightness|Other");
         System.out.println("----------------------------");
+
+    }
+
+    public int getSize()
+    {
+        return tbArray.size();
     }
 
     public void updateTable()
     {
-        //Todo
-        //update Table
+        System.out.println(tbArray.add("Hello World"));
     }
 
-    public void removeFromTable()
+    public void removeFromTable(int id)
     {
-
+        tbArray.remove(id);
     }
 
-    public void addToTable()
+    public void addToTable(String deviceModel,String deviceType,String deviceState,String deviceColor)
     {
-
+              tbArray.add(Integer.toString(tbArray.size()) + "|" + deviceModel + "|" + deviceType + "|" + deviceState + "|" + deviceColor + "|");
+              displayTable();
     }
 
-    public void editTable()
+    public void editTable(int id,String deviceModel,String deviceType,String deviceState,String deviceColor)
     {
-
+        tbArray.set(id,Integer.toString(id) + "|" + deviceModel + "|" + deviceType + "|" + deviceState + "|" + deviceColor + "|");
     }
 
 }
