@@ -35,4 +35,5 @@ public class outlet implements device
 
 
 
+
 }
