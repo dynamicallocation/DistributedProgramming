@@ -17,13 +17,24 @@ public class Table {
         this.deviceState = deviceState;
     }
 
+    public Table()
+    {
+
+    }
+
     public void displayTable()
     {
 
-        //Todo
-        //Create Table
+       displayHeader();
 
 
+
+    }
+
+    private void displayHeader() {
+
+        System.out.println("\nModel|State|Brightness|Other");
+        System.out.println("----------------------------");
     }
 
     public void updateTable()
