@@ -12,6 +12,8 @@ public class Table {
     public void displayTable()
     {
 
+
+        StringBuffer tableBuilder = new StringBuffer();
        displayHeader();
        if(tbArray.size() == 0)
        {
@@ -19,7 +21,10 @@ public class Table {
        }
        else
        {
-           updateTable();
+
+           tableBuilder.append(tbArray.toString());
+           tableBuilder.append(System.getProperty("line.separator"));
+           System.out.println(tableBuilder.toString());
        }
 
 
@@ -38,10 +43,6 @@ public class Table {
         return tbArray.size();
     }
 
-    public void updateTable()
-    {
-        System.out.println(tbArray.add("Hello World"));
-    }
 
     public void removeFromTable(int id)
     {
@@ -58,5 +59,12 @@ public class Table {
     {
         tbArray.set(id,Integer.toString(id) + "|" + deviceModel + "|" + deviceType + "|" + deviceState + "|" + deviceColor + "|");
     }
+
+    public void clearTable()
+    {
+        tbArray.clear();
+    }
+
+
 
 }
