@@ -68,7 +68,10 @@ public class main
 
     public static void remove()
     {
-
+        tb.displayTable();
+        System.out.println("enter ID of device you would like to remove");
+        int id = ans.nextInt();
+        tb.removeFromTable(id);
 
     }
 
