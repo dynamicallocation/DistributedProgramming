@@ -15,20 +15,30 @@ public class scheduler {
     }
 
 
-
-
-
-    public void switchPower()
+    public String defaultPower()
     {
-        powerStrip.switchState();
-        System.out.println(powerStrip.getState()? "On" : "Off");
+        return powerStrip.getState()? "On" : "Off";
     }
 
-    public void switchBulb()
+    public String defaultBulb()
+    {
+        return lightBulb.getState()? "On" : "Off";
+    }
+
+
+    public String switchPower()
     {
         powerStrip.switchState();
-        System.out.println(powerStrip.getState()? "On" : "Off");
+        return powerStrip.getState()? "On" : "Off";
     }
+
+    public String switchBulb()
+    {
+        lightBulb.switchState();
+        return lightBulb.getState()? "On" : "Off";
+    }
+
+
 
 
 

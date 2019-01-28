@@ -6,6 +6,7 @@ public class main
 {
     private static Table tb = new Table();
     private static Scanner ans = new Scanner(System.in);
+    private static int size = 0;
 
     public static void main(String args[])
     {
@@ -31,18 +32,12 @@ public class main
                     break;
                 case 5:  exit();
                     break;
+
                 default: System.out.println("Invalid Input");
                     break;
             }
 
             continue;
-
-
-
-
-
-
-
 
         }
 
@@ -57,11 +52,10 @@ public class main
         String type = ans.nextLine();
         System.out.println("enter brightness: ");
         String brightness = ans.nextLine();
-        System.out.println("enter state of device: ");
-        String state = ans.nextLine();
         System.out.println("enter color of device: ");
         String color = ans.nextLine();
-        tb.addToTable(model,type,state,color);
+        tb.addToTable(model,type,color,brightness,size);
+        size++;
 
 
     }
@@ -78,15 +72,37 @@ public class main
     public static void edit()
     {
 
+
+
+            System.out.println("1:change Value 2:Turn Off Device");
+            int answer = ans.nextInt();
+            if(answer == 1) {
+                tb.displayTable();
+                System.out.println("enter ID of device you would like to edit");
+                int id = ans.nextInt();
+                System.out.println("enter a model: ");
+                String model = ans.nextLine();
+                System.out.println("enter type of device: ");
+                String type = ans.nextLine();
+                System.out.println("enter brightness: ");
+                String brightness = ans.nextLine();
+                System.out.println("enter color of device: ");
+                String color = ans.nextLine();
+               // tb.editTable(id, model, type, color, brightness);
+            }
+
+            System.out.println("enter ID of device you would like to turn off");
+            int id = ans.nextInt();
+            tb.editTable(id);
     }
 
     public static void delete()
     {
-
+        //tb.clearTable();
     }
 
     public static void exit()
     {
-        System.exit(1);
+        System.exit(0);
     }
 }
