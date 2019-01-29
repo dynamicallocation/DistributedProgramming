@@ -9,7 +9,7 @@ public class scheduler {
     {
         lightBulb = new bulb();
         System.out.println(lightBulb.getState()? "On" : "Off");
-        powerStrip = new outlet();
+        powerStrip = [new outlet(), new outlet(), new outlet()];
         System.out.println(powerStrip.getState()? "On" : "Off");
         //Devices are ON upon instantiation
     }
