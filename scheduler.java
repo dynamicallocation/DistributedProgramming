@@ -36,7 +36,7 @@ public class scheduler {
         timer.schedule(func.call(), today.getTime(), TimeUnit.MILLISECONDS.convert(1, TimeUnit.DAYS));
     }
     
-    public void setTimer(int milliseconds), Callable<T> func)
+    public void setTimer(int milliseconds, Callable<T> func)
     {
         new java.util.Timer().schedule(
             new java.util.TimerTask() {
