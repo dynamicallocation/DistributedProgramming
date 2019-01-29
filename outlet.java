@@ -4,16 +4,15 @@ import com.oracle.tools.packager.Log;
 
 public class outlet implements device
 {
-    //device is assumed to be on when instantiated
+    //device is assumed to be off when instantiated
 
-    private boolean status = false;
+    private boolean state = false;
     private int id = 0;
     private int group = 0;
 
-    public void outlet(boolean status, int group)
+    public void outlet(boolean state, int id, int group)
     {
-        this.status = status;
-        this.group = group;
+        this.state = state;
     }
 
     @Override
@@ -39,3 +38,4 @@ public class outlet implements device
     }
 
 }
+

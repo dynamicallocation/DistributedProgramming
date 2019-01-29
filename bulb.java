@@ -1,10 +1,8 @@
 package main.java;
-
 import com.oracle.tools.packager.Log;
 
 public class bulb implements device
 {
-
     //device is assumed to be off when instantiated
 
     private boolean status = false;
@@ -49,9 +47,9 @@ public class bulb implements device
 
     public boolean getState()
     {
-        return status;
+        return state;
     }
-    
+
     public boolean getFullState()
     {
         return status + id + group + dim + color;

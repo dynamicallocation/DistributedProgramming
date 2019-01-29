@@ -9,9 +9,9 @@ public class scheduler {
     {
         lightBulb = new bulb();
         System.out.println(lightBulb.getState()? "On" : "Off");
-        powerStrip = [new outlet(), new outlet(), new outlet()];
-        System.out.println(powerStrip.getState()? "On" : "Off");
-        //Devices are ON upon instantiation
+        powerStrip = [new outlet(), new outlet()];
+        System.out.println(powerStrip[0].getState()? "On" : "Off", powerStrip[1].getState()? "On" : "Off");
+    
     }
 
     public void switchPower()
@@ -27,7 +27,27 @@ public class scheduler {
     }
 
 
+    public String defaultPower()
+    {
+        return powerStrip.getState()? "On" : "Off";
+    }
+
+    public String defaultBulb()
+    {
+        return lightBulb.getState()? "On" : "Off";
+    }
 
 
+    public String switchPower()
+    {
+        powerStrip.switchState();
+        return powerStrip.getState()? "On" : "Off";
+    }
+
+    public String switchBulb()
+    {
+        lightBulb.switchState();
+        return lightBulb.getState()? "On" : "Off";
+    }
 
 }
