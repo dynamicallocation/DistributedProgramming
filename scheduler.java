@@ -6,6 +6,7 @@ public class scheduler {
 
     private bulb lightBulb;
     private outlet powerStrip;
+    const hour = 1000*60*60;
 
     public scheduler()
     {
@@ -13,6 +14,10 @@ public class scheduler {
         System.out.println(lightBulb.getState()? "On" : "Off");
         powerStrip = [new outlet(), new outlet()];
         System.out.println(powerStrip[0].getState()? "On" : "Off", powerStrip[1].getState()? "On" : "Off");
+        
+        lightBulb.schedule(this.getDate(0, 30, 0), this.switchBulb());
+        powerStrip[0].schedule(this.getDate(2, 0, 0), this.switchPower());
+        powerStrip[1].setTimer(hour * 2, this.switchPower());
     }
     
     private static Date getDate(int hour, int minute, int second)
@@ -29,6 +34,17 @@ public class scheduler {
     {
         Timer timer = new Timer();
         timer.schedule(func.call(), today.getTime(), TimeUnit.MILLISECONDS.convert(1, TimeUnit.DAYS));
+    }
+    
+    public void setTimer(int milliseconds), Callable<T> func)
+    {
+        new java.util.Timer().schedule(
+            new java.util.TimerTask() {
+                @Override
+                public void run() {
+                    func.call();
+                }
+        }, milliseconds );
     }
 
     public void switchPower()
