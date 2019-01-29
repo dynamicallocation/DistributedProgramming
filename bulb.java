@@ -41,12 +41,6 @@ public class bulb implements device
     }
     
     @Override
-    public void updateGroup(int group)
-    {
-        this.group = group;
-    }
-    
-    @Override
     public void updateColor(int color0, int color1, int color2)
     {
         int[] data = {color0, color1, color2};
