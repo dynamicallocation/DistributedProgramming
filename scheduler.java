@@ -6,7 +6,7 @@ public class scheduler {
 
     private bulb lightBulb;
     private outlet powerStrip;
-    const hour = 1000*60*60;
+    Integer HOUR = 1000*60*60;
 
     public scheduler()
     {
@@ -17,7 +17,7 @@ public class scheduler {
         
         lightBulb.schedule(this.getDate(0, 30, 0), this.switchBulb());
         powerStrip[0].schedule(this.getDate(2, 0, 0), this.switchPower());
-        powerStrip[1].setTimer(hour * 2, this.switchPower());
+        powerStrip[1].setTimer(HOUR * 2, this.switchPower());
     }
     
     private static Date getDate(int hour, int minute, int second)
