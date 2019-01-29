@@ -1,16 +1,16 @@
 package main.java;
 
-
 import com.oracle.tools.packager.Log;
 
 public class outlet implements device
 {
+    //device is assumed to be off when instantiated
 
-    //device is assumed to be on when instantiated
+    private boolean state = false;
+    private int id = 0;
+    private int group = 0;
 
-    private boolean state = true;
-
-    public void outlet(boolean state)
+    public void outlet(boolean state, int id, int group)
     {
         this.state = state;
     }
@@ -18,22 +18,24 @@ public class outlet implements device
     @Override
     public void switchState()
     {
-        state = !state;
+        status = !status;
+    }
+    
+    @Override
+    public void updateGroup(int group)
+    {
+        this.group = group;
     }
 
     public boolean getState()
     {
-        return state;
+        return status;
+    }
+    
+    public boolean getFullState()
+    {
+        return status + id + group;
     }
 
-
-
-
-
-
-
-
-
-
-
 }
+

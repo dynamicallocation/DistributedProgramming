@@ -1,4 +1,3 @@
-
 package main.java;
 import java.util.Scanner;
 
@@ -10,9 +9,6 @@ public class main
 
     public static void main(String args[])
     {
-
-
-
         while(true)
         {
             Scanner ans = new Scanner(System.in);
