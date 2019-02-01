@@ -21,7 +21,7 @@ public class Table implements tb
 
     @Override
     public int getSize() {
-        return tbArray.size();
+        return column.size();
     }
 
     @Override
@@ -40,7 +40,7 @@ public class Table implements tb
     @Override
     public void clear() {
 
-        tbArray.clear();
+        column.clear();
     }
 
     @Override
@@ -191,6 +191,11 @@ public class Table implements tb
     public void removeDevice(int id)
     {
         column.remove(id);
+    }
+
+    public ArrayList<devices> getarry()
+    {
+        return tbArray;
     }
 
 

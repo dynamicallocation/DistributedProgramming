@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0326dfe-f178-4dd9-87cb-231fa2989992" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bulb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/device.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectOne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projectOne.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,22 +26,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9393" />
+          <entry key="java" value="10489" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9393" />
+          <entry key="JAVA" value="10489" />
         </counts>
       </usages-collector>
     </session>
@@ -60,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+            <state relative-caret-position="94">
+              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
               <folding>
                 <element signature="e#3185#3186#0" expanded="true" />
                 <element signature="e#3211#3212#0" expanded="true" />
@@ -78,12 +75,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="166" column="25" lean-forward="true" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+            <state relative-caret-position="268">
+              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
                 <element signature="e#6822#6823#0" expanded="true" />
                 <element signature="e#6855#6856#0" expanded="true" />
+                <element signature="e#6542#6543#0" expanded="true" />
+                <element signature="e#6571#6572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/devices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="178">
               <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
               <folding>
                 <element signature="e#1217#1218#0" expanded="true" />
@@ -137,7 +150,7 @@
         <entry file="file://$PROJECT_DIR$/src/outlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#378#379#0" expanded="true" />
                 <element signature="e#417#418#0" expanded="true" />
@@ -155,6 +168,7 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -176,8 +190,9 @@
         <option value="$PROJECT_DIR$/src/devices.java" />
         <option value="$PROJECT_DIR$/src/outlet.java" />
         <option value="$PROJECT_DIR$/src/scheduler.java" />
-        <option value="$PROJECT_DIR$/src/Table.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/src/TableTest.java" />
+        <option value="$PROJECT_DIR$/src/Table.java" />
       </list>
     </option>
   </component>
@@ -218,14 +233,28 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548987962085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548992874675" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TableTest.isCleared">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="projectOne" />
@@ -247,8 +276,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TableTest.isAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectOne" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TableTest" />
+      <option name="METHOD_NAME" value="isAdded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableTest.isCleared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectOne" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TableTest" />
+      <option name="METHOD_NAME" value="isCleared" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableTest.isEdited" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectOne" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TableTest" />
+      <option name="METHOD_NAME" value="isEdited" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableTest.isRemoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectOne" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TableTest" />
+      <option name="METHOD_NAME" value="isRemoved" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main" />
+      <item itemvalue="JUnit.TableTest.isAdded" />
+      <item itemvalue="JUnit.TableTest.isRemoved" />
+      <item itemvalue="JUnit.TableTest.isEdited" />
+      <item itemvalue="JUnit.TableTest.isCleared" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TableTest.isCleared" />
+        <item itemvalue="JUnit.TableTest.isEdited" />
+        <item itemvalue="JUnit.TableTest.isRemoved" />
+        <item itemvalue="JUnit.TableTest.isAdded" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -273,16 +353,47 @@
       <updated>1548707598937</updated>
       <workItem from="1548707600537" duration="431000" />
       <workItem from="1548708212320" duration="25382000" />
-      <workItem from="1548887533400" duration="24715000" />
+      <workItem from="1548887533400" duration="29641000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TableTest_isAdded - 2019.01.31 at 21h 17m 12s.xml">
+      <configuration name="TableTest.isAdded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_isAdded - 2019.01.31 at 21h 17m 22s.xml">
+      <configuration name="TableTest.isAdded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_isRemoved - 2019.01.31 at 21h 19m 05s.xml">
+      <configuration name="TableTest.isRemoved" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_isRemoved - 2019.01.31 at 21h 20m 10s.xml">
+      <configuration name="TableTest.isRemoved" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_isAdded - 2019.01.31 at 21h 23m 14s.xml">
+      <configuration name="TableTest.isAdded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_isRemoved - 2019.01.31 at 21h 23m 22s.xml">
+      <configuration name="TableTest.isRemoved" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_isEdited - 2019.01.31 at 21h 37m 15s.xml">
+      <configuration name="TableTest.isEdited" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_isEdited - 2019.01.31 at 21h 38m 58s.xml">
+      <configuration name="TableTest.isEdited" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_isCleared - 2019.01.31 at 21h 40m 33s.xml">
+      <configuration name="TableTest.isCleared" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_isCleared - 2019.01.31 at 21h 41m 23s.xml">
+      <configuration name="TableTest.isCleared" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50528000" />
+    <option name="totallyTimeSpent" value="55454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -329,25 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="166" column="25" lean-forward="true" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6822#6823#0" expanded="true" />
-            <element signature="e#6855#6856#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scheduler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -358,27 +450,12 @@
     <entry file="file://$PROJECT_DIR$/src/outlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#378#379#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#501#502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/devices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-          <folding>
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -397,15 +474,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="94">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
           <folding>
             <element signature="e#3185#3186#0" expanded="true" />
             <element signature="e#3211#3212#0" expanded="true" />
             <element signature="e#3248#3249#0" expanded="true" />
             <element signature="e#3278#3279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/devices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#6822#6823#0" expanded="true" />
+            <element signature="e#6855#6856#0" expanded="true" />
+            <element signature="e#6542#6543#0" expanded="true" />
+            <element signature="e#6571#6572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
