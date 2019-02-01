@@ -1,9 +1,9 @@
-package main.java;
+
 
 
 import com.oracle.tools.packager.Log;
 
-public class outlet implements device
+public class bulb implements device
 {
 
     //device is assumed to be on when instantiated
@@ -25,12 +25,6 @@ public class outlet implements device
     {
         return state;
     }
-
-
-
-
-
-
 
 
 
