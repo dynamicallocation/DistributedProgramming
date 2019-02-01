@@ -1,15 +1,41 @@
 
-import java.util.Scanner;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
+
 
 public class main {
     private static Table tb = new Table();
     private static Scanner ans = new Scanner(System.in);
     private static int size = 0;
 
+
+    private static class Task extends TimerTask
+    {
+        private int id;
+        public Task(int id)
+        {
+            this.id = id;
+        }
+
+        public void run()
+        {
+
+            tb.switchDevice(id);
+            tb.displayTable();
+        }
+    }
+
     public static void main(String args[]) {
 
 
         while (true) {
+
+            System.out.println(DateTimeFormatter.ofPattern("hh:mm a").format(LocalTime.now()));
+
             Scanner ans = new Scanner(System.in);
             System.out.println("What would you like to do?");
             System.out.println("1: add 2: remove 3: edit: 4: delete");
@@ -87,7 +113,7 @@ public class main {
 
 
 
-            System.out.println("1:change Value 2:Turn Off Device");
+            System.out.println("1:change Value 2:Turn Off Device 3:Turn Off Device At Specified Time");
             int answer = ans.nextInt();
             if(answer == 1) {
                 tb.displayTable();
@@ -104,10 +130,25 @@ public class main {
                 String color = ans.nextLine();
                 tb.editTable(id,model,type,brightness,color);
             }
-           System.out.println("enter ID of device you would like to turn off");
-            int id = ans.nextInt();
-            tb.switchDevice(id);
+            else if(answer == 2) {
+                System.out.println("enter ID of device you would like to turn off");
+                int id = ans.nextInt();
+                tb.switchDevice(id);
+            }
+            else
+            {
+                System.out.println("enter ID of device you would like to turn off");
+                int id = ans.nextInt();
+                System.out.println("enter Second you would like to wait before device is turned off");
+                long milli = ans.nextInt();
+                int time = (int) milli * 1000;
+                Timer timer = new Timer();
+                timer.schedule(new Task(id),time);
+                System.out.println("Please Wait...");
+            }
     }
+
+
 
     public static void delete()
     {
