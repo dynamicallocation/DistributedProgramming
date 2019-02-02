@@ -7,7 +7,7 @@ public class scheduler {
     public scheduler()
     {
         lightBulb = new bulb();
-        powerStrip = new outlet(true);
+        powerStrip = new outlet();
 
     }
 

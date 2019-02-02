@@ -25,7 +25,6 @@ public class main {
         {
 
             tb.switchDevice(id);
-            tb.displayTable();
         }
     }
 

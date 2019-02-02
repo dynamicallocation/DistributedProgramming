@@ -7,6 +7,9 @@ public class Table implements tb
 
     private ArrayList<devices> tbArray = new ArrayList<>();
     private ArrayList<String> column = new ArrayList<>();
+    private ArrayList<String> bulb = new ArrayList<>();
+    private ArrayList<String> outlet = new ArrayList<>();
+    private ArrayList<String> other = new ArrayList<>();
     private StringBuilder row = new StringBuilder();
     private scheduler sc = new scheduler();
     private String deviceState;
@@ -112,6 +115,7 @@ public class Table implements tb
             row.append("Model: " + tbArray.get(id).getModel() + " ");
             row.append("State: " + tbArray.get(id).getState() + " ");
             row.append("\n");
+            groupBy(tbArray.get(id).getType());
             column.add(id, row.toString());
             row.setLength(0);
         }
@@ -182,6 +186,24 @@ public class Table implements tb
 
             switchBulb(id);
         }
+
+    }
+
+    public void groupBy(String type)
+    {
+        if(type.equalsIgnoreCase("outlet"))
+        {
+            outlet.add(type);
+        }
+        else if(type.equalsIgnoreCase("bulb"))
+        {
+            bulb.add(type);
+        }
+        else
+        {
+            other.add(type);
+        }
+
 
     }
 
