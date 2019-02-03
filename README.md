@@ -30,7 +30,7 @@
 ## Gradle Compliant 
 
 ### Instructions 
-### The program itself if gradle Compliant. However due to some bugs is slightly different.  
+### The program itself is gradle Compliant. However due to some bugs running it is slightly different.  
 ### To run the program through gradle locate and change into the directory labeled "untitled" 
 ### After which enter the following command ./gradlew run --console=plain
 ### This will circumvent a bug caused with the gradle loading icon hanging when the program is already fully functional 
