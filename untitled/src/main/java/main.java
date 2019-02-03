@@ -159,9 +159,18 @@ public class main {
                 }
                 System.out.println("enter a model: ");
                 String model = ans.nextLine();
-                System.out.println("\n");
-                System.out.println("enter type of device: ");
-                String type = ans.nextLine();
+                String m = ans.nextLine();
+                String type;
+                while (true) {
+                    System.out.println("enter type of device bulb/outlet/other: ");
+                    type = ans.nextLine();
+                    if (type.equalsIgnoreCase("bulb") || type.equalsIgnoreCase("outlet") || type.equalsIgnoreCase("other")) {
+                        break;
+                    } else {
+                        System.out.println("invalid input");
+                        continue;
+                    }
+                }
                 System.out.println("enter brightness: ");
                 String brightness = ans.nextLine();
                 System.out.println("enter color of device: ");

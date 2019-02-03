@@ -7,7 +7,7 @@ public class outlet
 
 
 
-    private boolean[] states = new boolean[11];
+    private boolean[] states = new boolean[7];
     private boolean state = true;
     private int count = 0;
 
