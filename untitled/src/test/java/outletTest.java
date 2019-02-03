@@ -12,7 +12,7 @@ public class outletTest {
     public void outletSize() throws Exception
     {
         outlet outlet = new outlet();
-        assertEquals(11,outlet.getStates().length);
+        assertEquals(7,outlet.getStates().length);
     }
 
     @Test
