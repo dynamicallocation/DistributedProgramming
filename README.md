@@ -44,6 +44,7 @@
 # Important 
 ## To reiterate its extremely important that if the user is running the program through gradle they use the following command
 ## ./gradlew run --console=plain
+## When entering a model prompt "Enter it twice" is only relevant if you don't use gradle. If you're using Gradle to run the ## program continue as you normally would i.e) Enter ONCE and wait. 
 
 
 
