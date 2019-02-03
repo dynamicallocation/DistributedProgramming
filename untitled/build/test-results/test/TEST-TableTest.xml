@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TableTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-02-03T04:26:54" hostname="Ivans-MacBook-Pro.local" time="0.019">
+  <properties/>
+  <testcase name="isEdited" classname="TableTest" time="0.018"/>
+  <testcase name="isRemoved" classname="TableTest" time="0.001"/>
+  <testcase name="isAdded" classname="TableTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
